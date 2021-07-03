@@ -19,3 +19,8 @@ export function algunaOtroActionCreator(payload) { //Lo unico que hace es genera
         payload
     }
 }
+
+
+/* modelo para poner en el archivo names.js
+export const TYPE_NAME="TYPE_NAME"
+*/
