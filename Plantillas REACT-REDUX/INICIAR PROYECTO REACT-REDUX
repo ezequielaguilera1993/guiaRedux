@@ -1,0 +1,48 @@
+
+//Como inicializar un proyecto de cero con react redux y toda la mar en coche//
+/////_PASO 1_ Ejecutar estos comandos////////
+-----------------------------------
+npx create-react-app micarpeta
+cd micarpeta
+npm install redux redux-thunk react-redux react-router-dom redux-devtools-extension
+
+-----------------------------------
+
+• Explicacion de los comandos
+a) npx create-react-app micarpeta
+b) cd micarpeta
+c) npm install redux redux-thunk react-redux react-router-dom redux-devtools-extension
+
+a) npx create-react-app micarpeta <--Crea una plantilla básica (y completa) para trabajar con REACT, instala librerias como react, webpack y babel.
+-Babel: transpila jsx a js. Esto nos permite escribir como si se tratase de HTML
+-Webpack: genera a partir de los jsx un solo archivo bundle. Con los css, si agregan "module" es decir miHojaDeEstilos.module.css webpack lo va a detectar y genera nombres de clase con codigos hash raros (para que no se pisen). Entonces podes llamar igual a cosas de diferentes modulos y no pasa nada
+-"mi carpeta" cuando ejecutas este comando crea una carpeta y armo todo adentro, donde dice miCarpeta le pones como queres que se llame
+
+b)cd micarpeta accedes a la carpeta que acabas de crear, con todo adentro
+--aca ya podrias usar componentes y todo! pero vamos a instalar otras cosas para que quede mas completa-
+
+c) npm install redux redux-thunk react-redux react-router-dom redux-devtools-extension
+¿Que instalamos?
+    redux: libreria para manejar variables globales
+    redux-thunk: comunicacion ASINCRONA con apis externas
+    react-redux: como es de esperarse, metodos para poder comunicar react con redux  
+    react-router-dom: para poder manejar las rutas
+    redux-devtools-extension: es para que se pueda ejecutar en el navegador un plugin que nos ayuda MUCHISIMO a programar.
+/////////////Fin de _PASO 1_/////////////////
+
+
+/////_PASO 2_ Agregar archivos y estas carpetas a "miCarpeta"////////
+•  Actions(carpeta)
+      -index.js
+      -names.js
+• Componentes(carpeta)
+      -Componente1(carpeta)
+                                 -Componente1.js
+                                 -Componente1.css
+• Reducer(carpeta)
+     -index.js
+• Store(carpeta)
+     -index.js
+/////////////Fin de _PASO 2_/////////////////
+///LISTO///
+
