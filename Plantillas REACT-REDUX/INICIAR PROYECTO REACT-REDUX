@@ -57,6 +57,8 @@ c) npm install redux redux-thunk react-redux react-router-dom redux-devtools-ext
 
 
 ///Que hacer ahora//
+0) Modificar el index para que ande
+
 //Lectura de estado
 1) Codear el Store (basico reducer)
 2) Codear simple el reducer para probar los estados
