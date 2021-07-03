@@ -53,7 +53,7 @@ c) npm install redux redux-thunk react-redux react-router-dom redux-devtools-ext
 • Store(carpeta)
      -index.js
 /////////////Fin de _PASO 2_/////////////////
-///LISTO///
+///Comprobar con npm start y listo LISTO///
 
 
 ///Que hacer ahora//
