@@ -17,6 +17,7 @@ CON EL TYPE Y PAYLOAD. PERO ASI NO LA USAMOS!!, AL PASARLA EN EL CONNECT, ESTE L
 
 4) ERROR: NO PASAR ENTRE LLAVES Y SEPARADOS POR COMAS LAS ACTION CREATOR EN EL CONNECT. El connect espera un objeto, y esa sus elementos, que van a ser ACTION CREATOR, si se la pasas asi nomas porque es una sola se rompe.
 
+5) ERROR: PASAR ENTRE LLAVES PERO LA FUNCION INVOCADA, NO QUIERE EL OBJETO QUIERE LA FUNCION!
 */
 
  function componente ({algo, actionAlgo}){
