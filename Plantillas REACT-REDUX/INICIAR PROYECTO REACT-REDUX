@@ -55,3 +55,15 @@ c) npm install redux redux-thunk react-redux react-router-dom redux-devtools-ext
 /////////////Fin de _PASO 2_/////////////////
 ///LISTO///
 
+
+///Que hacer ahora//
+//Lectura de estado
+1) Codear el Store (basico reducer)
+2) Codear simple el reducer para probar los estados
+3) Probar el estado en un componente
+
+//Edicion de estados (ACTION_CREATORS + Reducer)
+4) Crear ACTION_CREATOR 
+5) Agregarla al reducer
+
+
