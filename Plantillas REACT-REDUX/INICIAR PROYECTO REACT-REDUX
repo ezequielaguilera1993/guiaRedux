@@ -1,6 +1,10 @@
 
 //Como inicializar un proyecto de cero con react redux y toda la mar en coche//
-/////_PASO 1_ Ejecutar estos comandos////////
+
+
+
+
+/////_PASO 1 de 2_ Ejecutar estos comandos////////
 -----------------------------------
 npx create-react-app micarpeta
 cd micarpeta
@@ -31,14 +35,19 @@ c) npm install redux redux-thunk react-redux react-router-dom redux-devtools-ext
 /////////////Fin de _PASO 1_/////////////////
 
 
-/////_PASO 2_ Agregar archivos y estas carpetas a "miCarpeta"////////
+
+
+
+
+
+/////_PASO 2 de 2_ Agregar archivos y estas carpetas a src (/miCarpeta/src)////////
 •  Actions(carpeta)
       -index.js
       -names.js
 • Componentes(carpeta)
       -Componente1(carpeta)
-                                 -Componente1.js
-                                 -Componente1.css
+                                 -Componente1.jsx
+                                 -Componente1.module.css
 • Reducer(carpeta)
      -index.js
 • Store(carpeta)
