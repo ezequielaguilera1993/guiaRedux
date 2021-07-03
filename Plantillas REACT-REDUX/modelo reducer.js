@@ -1,7 +1,6 @@
   
-import { ACTION_ALGO } from "../actions/names" //Importa EL NOMBRE de un type de action
+// import { ACTION_ALGO } from "../actions/names" //Importa EL NOMBRE de un type de action
 
-const ACTION_ALGO="ACTION_ALGO" 
 
 const initialState = {//creo mi estado inicial
     algo:"algo",
@@ -16,12 +15,14 @@ function rootReducer(state = initialState, action) { //solo si state es nulo (es
 let type=action.type
 let payload=action.payload
 
-    if (type === ACTION_ALGO) { 
+   /* if (type === ACTION_ALGO) { 
         return {
             ...state, algo:payload
         }
         //Lo que retorne se va a comparar con lo que este. Si queres mantener lo anteror haces destructuring con los 3 puntitos, pones una coma y pisas el elemento del estado que queres cambiar (en este caso cambias -algo-, sin modificar -algo2-)
-    }
+    } */
+  
+  return state
 
 }
 
